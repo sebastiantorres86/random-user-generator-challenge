@@ -8,7 +8,7 @@ My goal was to simulate a professional work environment.
 
 - I used feature branches and Pull Requests:
 
-![](src/assets/images/PR.jpg)
+![](src/assets/images/PR.JPG)
 
 ## How to navigate this project
 
