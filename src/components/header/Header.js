@@ -1,11 +1,13 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Container, StyledLink } from './Header.styles'
 
 const Header = () => {
   return (
-    <Link to='/'>
-      <h1>Random Users</h1>
-    </Link>
+    <Container>
+      <StyledLink to='/'>
+        <h1>Random Users</h1>
+      </StyledLink>
+    </Container>
   )
 }
 
