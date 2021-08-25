@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <Container>
       <StyledLink to='/'>
-        <h1>Random Users</h1>
+        <h1>Random Users Generator Challenge</h1>
       </StyledLink>
     </Container>
   )

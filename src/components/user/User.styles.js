@@ -4,9 +4,10 @@ export const Card = styled.article`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 30px 40px;
-  width: 230px;
-  height: 318px;
+  justify-content: space-between;
+  padding: .5rem;
+  width: 180px;
+  height: 180px;
 
   background: #ffffff;
   border-radius: 5px;
@@ -14,9 +15,9 @@ export const Card = styled.article`
 `
 
 export const Image = styled.img`
-  width: 128px;
-  height: 128px;
-  border-radius: 200px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
 `
 
 export const Name = styled.h6`
@@ -30,7 +31,7 @@ export const Name = styled.h6`
   /* primary-color */
 
   color: #23a6f0;
-  margin-bottom: 0.5rem;
+  margin: 0;
 `
 
 export const Data = styled.h5`
@@ -44,7 +45,7 @@ export const Data = styled.h5`
   /* text-color */
 
   color: #252b42;
-  margin: 0.5rem;
+  margin: 0;
 `
 
 export const Span = styled.span`
