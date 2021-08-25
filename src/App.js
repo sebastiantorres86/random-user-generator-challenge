@@ -1,11 +1,12 @@
 import GlobalStyle from './globalStyles'
 import Theme from './theme'
+import { Header } from './components'
 
 function App () {
   return (
     <Theme>
       <GlobalStyle />
-      <h1>Hello World!</h1>
+      <Header />
     </Theme>
   )
 }
