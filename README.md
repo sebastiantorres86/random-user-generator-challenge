@@ -1,6 +1,37 @@
-# Getting Started with Create React App
+## How I worked on this project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+My goal was to simulate a professional work environment.
+
+- I worked with tasks on a Kanban board:
+
+  ![](src/assets/images/kanban.png)
+
+- I used feature branches and Pull Requests:
+
+![](src/assets/images/PR.jpg)
+
+## How to navigate this project
+
+- Somewhat complex stateful logic: [here](src/views/home/Home.js)
+- Responsive CSS using styled-components: [here](src/views/home/Home.styles.js)
+- The application fetches data from the Random User Generator API: Examples for the request and data transformation: [here](src/views/home/Home.js)
+
+## Why I built the project this way
+
+- I didn't use a state management library like Redux on purpose. For this app simple `useState` is
+  sufficient. I realized that more and more projects don't use Redux anymore since GraphQL or
+  react-query are often used for data management.
+- styled-components is a great library for styling. It includes an auto-prefixer, uses scoped
+  classes, and allows a seamless integration with JS.
+- My plan is to become a full-stack developer eventually. But for the beginning I focus on the
+  frontend. I have basic backend knowledge as well.
+
+## If I had more time I would change this
+
+- Set up continuous integration to run the tests and ESLint on every Pull Request
+- Refactor some of the code.
+- Testing is an essential part of production applications. Testing Library is the go-to library in the React community. I want to cover the essential features of the app with tests.
+- Add end-to-end tests with Cypress.
 
 ## Available Scripts
 
