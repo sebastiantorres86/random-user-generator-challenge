@@ -1,18 +1,19 @@
 import React from 'react'
 import { Card, Data, Image, Name, Span } from './User.styles'
 
-const User = ({ person }) => {
+const User = ({ image, name, last, city, country }) => {
   return (
     <Card>
-      <Image src={person.picture.large} alt='person.name.first' />
+      <Image src={image} alt={name} />
       <Name>
-        {person.name.first} {person.name.last}
+        {name} {last}
       </Name>
       <Data>
-        City: <Span>{person.location.city}</Span>
+        City: <Span>{city}</Span>
       </Data>
       <Data>
-        Country: <Span>{person.location.country}</Span>
+        Country: <Span>{country}</Span>
+
       </Data>
     </Card>
   )
