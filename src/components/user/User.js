@@ -13,6 +13,7 @@ const User = ({ image, name, last, city, country }) => {
       </Data>
       <Data>
         Country: <Span>{country}</Span>
+
       </Data>
     </Card>
   )
